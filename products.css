@@ -1,0 +1,41 @@
+#products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 40px;
+    padding: 80px;
+}
+
+.product {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.product__reviews {
+    max-width: fit-content;
+}
+
+.add-review__text {
+    display: block;
+    resize: none;
+    width: 100%;
+    height: 80px;
+}
+.add-review__error {
+    opacity: 0;
+    background-color: red;
+    transition: opacity 0.5s ease-out;
+}
+
+.show-error {
+    opacity: 1;
+}
+
+.add-review__btn {
+    display: block;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
