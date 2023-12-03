@@ -1,3 +1,36 @@
+#add-review {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+}
+
+a {
+    display: block;
+    margin: 10px 0 0;
+}
+.link {
+    border: 1px solid #000;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 300px;
+}
+
+
 #products {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -38,4 +71,12 @@
     display: block;
     margin: 10px 0 0;
     cursor: pointer;
+}
+
+.remove-review {
+    padding: 1px;
+}
+
+.hide {
+    display: none;
 }
